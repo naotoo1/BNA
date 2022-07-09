@@ -10,7 +10,7 @@ To authenticate bank notes and return the confidence of the authentication, user
 
 If the option is soft or hard, an ensemble of trained ```cbc``` models with different configuration based on hard  and soft voting scheme is utilized. If random, then a trained ```cbc``` model is randomly selected from the ensemble to take over the task of classificaction. If none, the most confident trained ```cbc``` model out of the ensemble takes charge with regards to the classification with depolyment on Heroku platform as a service
 
-### To BNA streamlit app deployed on Heroku,
+### To use BNA streamlit app deployed on Heroku,
 1. click on the BNA_streamlit on the environments section and then click on view deployment or simply use the link https://BNA_streamlit.herokuapp.com
 2. Follows steps 2 to 5 for the streamlit app version described below to authenticate bank notes.
 
