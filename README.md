@@ -1,6 +1,6 @@
 # BNA
 
-End-to-end implementation of advanced prototype-based classification by components model for the detection of genuine and forged bank notes within the flask framework for swagger API and streamlit app with virtualization and containerization in dockers with deployment on Heroku platform as a service cloud
+End-to-end implementation of bank notes authentication using advanced prototype-based classification by components model within the flask framework for swagger API and streamlit app dockerized and deployed on Heroku platform as a service cloud
 
 ## What is it?
 This project utilizes classification by components prototype-based model in the area of interpretable-ai to detect genuine and forged bank notes. The implementation uses ensemble techniques with options available for stand-alone models.
