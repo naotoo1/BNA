@@ -1,6 +1,6 @@
 FROM python:3.9.1
 COPY . /usr/app/
-EXPOSE 8501
+EXPOSE 5000
 WORKDIR /usr/app/
 RUN pip install -r requirements.txt
-CMD streamlit run app.py --server.port $PORT
+CMD python app.py
