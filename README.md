@@ -14,8 +14,20 @@ If the option is soft or hard, an ensemble of trained ```cbc``` models with diff
 1. click on the link https://bna-mlapp.herokuapp.com/
 2. Follows steps 2 to 5 for the streamlit app version described below to authenticate banknotes.
 
-### To run BNA flask-swagger api on a browser,
-1. Run ```python app1.py``` and get the local URL ```http://localhost/apidocs```
+### To run BNA flask-swagger api on a browser locally,
+python 3.9 or later with all [requirements.txt](https://github.com/naotoo1/BNA/blob/main/requirements.txt) dependencies installed
+
+```python
+git clone https://github.com/naotoo1/BNA.git
+cd BNA
+pip install -r requirements.txt
+```
+Run
+```python
+python app1.py 
+```
+
+1. Get the local URL ```http://localhost/apidocs```
 2. To authenticate a single test case for a banknote, click on ```Get``` ---> ```Try it out```
 3. Enter the values for variance, skewness, curtosis and entropy with method chosen either as soft, hard, random or none (ie left blank)
 4. click on ```Execute```
@@ -24,8 +36,13 @@ If the option is soft or hard, an ensemble of trained ```cbc``` models with diff
 7. Enter the method either as soft, hard, random or none (ie left blank)
 8. click on ```Execute```
 
-### To run BNA streamlit app version on a browser,
-1. Run streamlit run app.py and get the local host URL ```http://localhost:8501```
+### To run BNA streamlit app version on a browser locally,
+Clone the repository and cd into the folder BNA as described above and  
+Run
+```python
+streamlit run app.py
+```
+1. Get the local host URL ```http://localhost:8501```
 2. To authenticate a single test case for a banknote, enter the values for variance, skewness, curtosis and entropy with the method chosen either as soft, hard, random    or none
 3. click on Predict
 4. To authenticate a multiple test case for some banknotes, click on browse files to choose the csv file containing test case data with the following designated          features variance, skewness, curtosis and entropy
